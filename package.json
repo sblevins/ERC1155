@@ -1,0 +1,28 @@
+{
+  "name": "erc1155",
+  "version": "1.0.0",
+  "description": "an implementation of the ERC1155 token standard that fixes 2 issues with @openzeppelin's implementation. URI changes emit events, and the uri() function returns different values based on the passed token ID",
+  "main": "/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sblevins/ERC1155.git"
+  },
+  "keywords": [
+    "Ethereum",
+    "NFT",
+    "ERC1155",
+    "EIP1155"
+  ],
+  "author": "Belvis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sblevins/ERC1155/issues"
+  },
+  "homepage": "https://github.com/sblevins/ERC1155#readme",
+  "dependencies": {
+    "openzeppelin-solidity": "^3.4.2"
+  }
+}
