@@ -1,6 +1,6 @@
 {
   "name": "erc1155",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "an implementation of the ERC1155 token standard that fixes 2 issues with @openzeppelin's implementation. URI changes emit events, and the uri() function returns different values based on the passed token ID",
   "main": "/",
   "scripts": {
